@@ -1,0 +1,681 @@
+/*
+Theme URI:http://www.donboscongangi.org
+Description:Feuille de Style pour le site du Centre De Jeunes Don Bosco Ngangi
+Version:1.0
+Author:BÜHL Sébastien
+Author URI:http://www.asredy.site90.com
+*/
+
+/*== Général Style =====*/
+
+ht ml {
+	background: url(../images/265369_10150228508486524_188134861523_7156835_6840912_o.jpg) no-repeat fixed center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed !important;
+	z-index: 1;
+}
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	height: 787px;
+	line-height:1.5;
+	z-index:2;
+	position:relative;
+}
+a{
+	color:#E41a41;
+}
+a:hover{
+	text-decoration:underline;
+	color:#000;
+}
+a:visited{
+	color:#E41a41;
+}
+#container{
+	width: 960px;
+	margin: auto;
+	z-index:2;
+	position:relative;
+}
+
+
+/*=== HEADER Style =====*/
+a#logo{
+	text-decoration: none;
+}
+header {
+	width: 960px;
+	height: 160px;
+	margin: 48px auto auto;
+}
+h1 {
+	color: #FFF;
+	font-size: 2.1em;
+	text-shadow: 4px 4px 4px #000000;
+	display: block;
+	padding-top: 21px;
+	padding-left: 120px;
+	height: 110px;
+	width: 400px;
+	float: left;
+	background: url(../images/logo_don_bosco_transparent.png) no-repeat;
+	font-weight: bold;
+}
+
+.diaporama{
+    position:relative;
+    width: 240px;
+	height: 160px;
+	margin-left:620px ;
+	display: block;
+	z-index:10;
+}
+ 
+.diaporama li{
+    list-style-type:none;
+    overflow:hidden;
+    position:absolute /* Les images seront positionnées toutes au même endroit */
+}
+/*==== MENU Style ======*/
+
+nav#menu{
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 100px;
+}
+ul.menu{
+	width: 215px;
+	height: 100px;
+	float: left;
+}
+li.menu{
+	text-align: right;
+	text-shadow: 4px 4px 4px #000000;
+	line-height: 1.4em;
+	font-size: 1.1em;
+	color: #FFF;
+}
+li.menu:hover{
+	-webkit-transform:scale(1.2) translate(-18px, 0px) ;
+	-moz-transform:scale(1.2) translate(-18px, 0px) ;
+	-o-transform:scale(1.2) translate(-18px, 0px) ;
+	transform:scale(1.2) ;
+	transform-origin:50% 50%;
+	-webkit-transform-origin:50% 50%;}
+.menu-actif {
+	visibility: hidden;
+}
+a.menu{
+	text-decoration: none;
+	color: #FFF;
+}
+#menu_stroke{
+	width: 5px;
+	height: 100px;
+	margin-left: 218px;
+	background: url(../images/stroke_2px.jpg) repeat-y right top;
+	box-shadow: 4px 4px 4px #000000;
+	margin-right: 740px;
+}
+#actif {
+	float: right;
+	height: 100px;
+	width: 729px;
+}
+h3.actif {
+	font-size: 3em;
+	font-style: italic;
+	padding-top:37px;
+	color: #FFF;
+	text-shadow: 5px 5px 5px #000000;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background:none;
+	font-weight: bold;
+}
+.presentation_actif{
+	float:right;
+}
+/*==== MENU CENTRES Style ======*/
+
+ul.presentation{
+	margin-top:50px;
+}
+.menu_centres{
+	width: 222px;
+	float:left;
+	height:400px;
+}
+.prensentation-centres{
+	margin-top:15px;
+	margin-bottom:5px;
+}
+a#menu-ngangi{
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/ngangi-s-2.jpg);
+	background-position: left;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 100px;
+}
+a#menu-ngangi:hover{
+	background-position: right;	
+	border: 1px solid #e41a41;
+}
+a#menu-ngangi-actif{
+	background-image: url(../images/ngangi-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: right;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-ngangi-actif:hover{
+	background-image: url(../images/ngangi-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: left;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-magui{
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/magui-s-2.jpg);
+	background-position: left;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 100px;
+}
+a#menu-magui:hover{
+	background-position: right;	
+	border: 1px solid #e41a41;
+}
+a#menu-magui-actif{
+	background-image: url(../images/magui-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: right;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-magui-actif:hover{
+	background-image: url(../images/magui-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: left;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-gahinja{
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/gahinja-s-2.jpg);
+	background-position:left;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 100px;
+}
+a#menu-gahinja:hover{
+	background-position:right;	
+	border: 1px solid #e41a41;
+}
+a#menu-gahinja-actif{
+	background-image: url(../images/gahinja-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position:right;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-gahinja-actif:hover{
+	background-image: url(../images/gahinja-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: left;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-sasha{
+	width: 64px;
+	height: 64px;
+	background-image: url(../images/sasha-s-2.jpg);
+	background-position: left;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 100px;
+}
+a#menu-sasha:hover{
+	background-position: right;	
+	border: 1px solid #e41a41;
+}
+a#menu-sasha-actif{
+	background-image: url(../images/sasha-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: right;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+a#menu-sasha-actif:hover{
+	background-image: url(../images/sasha-b-2.jpg);
+	width: 161px;
+	height: 161px;
+	background-position: left;
+	border: 1px solid #e41a41;
+	display: block;
+	margin-left: 50px;
+}
+
+
+/*==== MAIN Style ======*/
+
+#main{
+	width: 738px;
+	background-color:rgba(255,255,255,.9);
+	margin-left:222px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	box-shadow: 4px 4px 4px #000000;
+	overflow:auto;
+}
+#main-missions{
+	width: 738px;
+	background-color:rgba(255,255,255,.9);
+	margin-left:222px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	box-shadow: 4px 4px 4px #000000;
+	padding-bottom:5px;
+}
+h3#mission {
+	color:#000;
+	border-bottom-color:#000;
+}
+
+.main_content{
+	width:433px;
+	margin:20px;
+	float:left;
+}
+
+.side_content{
+	width:253px;
+	background-color:rgba(218, 0, 47, .5);
+	margin-left:463px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.side_content_vis{
+	width:253px;
+	background-color:rgba(218, 0, 47, .5);
+	margin-left:463px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#vis_img{
+	padding-top:10px;
+	display:block;
+}
+#vis_img:hover{
+	-webkit-transform:scale(1.4) ;
+	-moz-transform:scale(1.4) ;
+	-o-transform:scale(1.4) ;
+	transform:scale(1.4) ;
+	transform-origin:50% 50%;
+	-webkit-transform-origin:50% 50%;
+	}
+h3{
+	font-size:1.2em;
+	text-align: center;
+	padding-bottom:5px;
+	color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+h4{
+	font-size:1.2em;
+	text-align: center;
+	padding-bottom:5px;
+	color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e41a41;
+}
+h5{
+	font-size:1.1em;
+	text-align: center;
+	padding-bottom:5px;
+	color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e41a41;
+	margin-left:10px;
+	margin-right:10px;
+}
+p{
+	text-align:justify;
+	padding-right:5px;
+	padding-top:5px;
+	font-size: 1em;
+}
+br{
+	padding-top:5px;
+}
+
+.liste_pres{
+	padding:10px;
+}
+
+.liste_pres li{
+	text-align:justify;
+	list-style-image:url(../images/puce.png);
+
+	list-style-position:outside;
+	margin-left:20px;
+	padding-top:5px;
+}
+/*==== MISSIONS Style ======*/
+#main_col1{
+	width:246px;
+	height:423px;
+	float:left;
+	margin-top:26px;
+	margin-left:10px;
+	margin-left:10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e41a41;
+
+}
+#main_col2{
+	width:246px;
+	height:423px;
+	float:right;
+	margin-top:26px;
+	margin-left:10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #e41a41;
+}
+#main_col3{
+	margin-left:256px;
+	height:423px;
+	margin-right:246px;
+	margin-top:26px;
+}
+p.missions{
+	text-align:center;
+	padding:10px;
+}
+
+img{
+	margin:auto;
+	display:block;
+}
+/*==== PARTENAIRES Style ======*/
+
+.partenaires{
+	width: 728px;
+	height: 384px;
+	margin:5px;
+	overflow:auto;
+}
+a.partenaires_box{
+	margin:5px;
+	width:167px;
+	height:140px;
+	float:left;
+	display:block;
+}
+/*=== LOGO ORGANISMES Style =====*/
+#eale{
+	background-image: url(../images/partenaires_eale.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#eale:hover{
+	background-position:right;
+}
+#vis{
+	background-image: url(../images/partenaires_vis.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#vis:hover{
+	background-position:right;
+}
+#warchild{
+	background-image: url(../images/partenaires_warchild.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#warchild:hover{
+	background-position:right;
+}
+#codespa{
+	background-image: url(../images/partenaires_codespa.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#codespa:hover{
+	background-position:right;
+}
+
+
+/*==== SECTION Style ======*/
+
+section{
+	width: 960px;
+	height: 163px;
+	margin-top: 100px;
+	margin-bottom: 160px;
+	clear: both;
+	
+}
+li.centres{
+	display: block;
+	float: left;
+}
+a#ngangi{
+	width: 161px;
+	height: 161px;
+	background-image: url(../images/ngangi-b-2.jpg);
+	background-position: left;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 58px;
+}
+a#ngangi:hover{
+	background-position: center;	
+	border: 1px solid #e41a41;
+}
+a#magui{
+	width: 161px;
+	height: 161px;
+	border: 1px solid #FFF;
+	display: block;
+	margin-left: 50px;
+	background-image: url(../images/magui-b-2.jpg);
+	background-position: left;
+}
+a#magui:hover{
+	background-position: center;	
+	border: 1px solid #e41a41;
+}
+a#gahinja{
+	width: 161px;
+	height: 161px;
+	border: 1px solid #FFF;
+	display: block;
+	background-image: url(../images/gahinja-b-2.jpg);
+	margin-left: 50px;
+}
+a#gahinja:hover{
+	background-position: center;	
+	border: 1px solid #e41a41;
+}
+a#sasha{
+	width: 161px;
+	height: 161px;
+	border: 1px solid #FFF;
+	display: block;
+	background-image: url(../images/sasha-b-2.jpg);
+	margin-left: 50px;
+}
+a#sasha:hover{
+	background-position: center;	
+	border: 1px solid #e41a41;
+}
+
+.telecharger_box{
+	background-color:rgba(218, 0, 47, .5);
+	margin:10px;
+}
+.telecharger_box_contour{
+	margin:10px;
+	border: 1px solid rgba(218, 0, 47, .5);
+}
+ul.telecharger{
+	margin:10px;
+	text-align:justify;
+}
+a.telecharger{
+	color:#FFF;
+	margin:10px;
+}
+a.telecharge:hover{
+	color:#000;
+	text-decoration:underline;
+}
+.objectifs{
+	list-style:decimal;
+	list-style-position:outside;
+	margin:20px;
+	text-align:justify;
+}
+.ngangi ul{
+	width: 738px;
+	background-color:rgba(255,255,255,.9);
+	margin-left:222px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	box-shadow: 4px 4px 4px #000000;
+	padding-bottom:5px;
+}
+.ngangi li{
+	width:62px;
+	height:62px;
+	float:left;
+	background-color:#000;
+	margin:10px;
+}
+
+/*=== FOOTER Style =====*/
+
+
+footer{
+	width: auto;
+	clear: both;
+	position: static;
+	z-index:2;
+	position:relative;
+}
+#slogan{
+	width: auto;
+	height: 23px;
+	background-color: rgba(218, 0, 47, .5);
+	text-align: center;
+	padding-top: 7px;
+	line-height:1;
+	font-style: italic;
+}
+#multi-col{
+	width: auto;
+	margin: auto;
+	background-color: rgba(255,255,255,.80);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#col_footer{
+	width: 960px;
+	margin: auto;	
+}
+nav#col1 {
+	float: left;
+	width: 320px;
+}
+nav#col2 {
+	float: right;
+	width: 320px;
+}
+nav#col3 {
+	margin-left: 320px;
+	margin-right: 320px;
+	width: 320px;
+}
+
+ul.col{
+	text-align: left;
+	padding-left: 18px;
+	border-left: 1px solid #000;
+}
+li.col{
+	line-height:1;
+}
+a.footer{
+	color: #000;
+	font-size: 1em;
+	line-height: 1;
+}
+a.footer:hover{
+	text-decoration:underline;
+}
+.top_link{
+	background:url(../images/top.png) no-repeat left;
+	height:30px;
+	width:30px;
+	padding:0 !important;
+}

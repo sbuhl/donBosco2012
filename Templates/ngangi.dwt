@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1" />
+	<meta name="description" content="Page d'accueil du site internet du Centre Des Jeunes Don Bosco Ngangi à Goma, République Démocratique du Congo." />
+	<meta name="author" content="BÜHL Sébastien" />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Centre Des Jeunes Don Bosco Ngangi - Goma - R&eacute;publique D&eacute;mocratique du Congo</title>
+	<!-- TemplateEndEditable -->
+	<link rel="stylesheet" href="../styles/reset.css" type="text/css" />
+	<link rel="stylesheet" href="../styles/style.css" type="text/css" />
+	<!--[if IE]><script src="scripts/html5-ie.js"></script><![endif]-->
+	
+
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+<!--D&eacute;but du HEADER-->
+	<header>
+			<a id="logo" href="../index.html"><h1>Centre Des Jeunes <br />
+											   Don Bosco Ngangi</h1></a>
+			<h2>Plus de 800 enfants soldats accueillis et r&eacute;unifi&eacute;s jusqu'en 2010</h2>
+	</header>
+<!--Fin du HEADER-->
+<!-- TemplateBeginEditable name="head" -->
+<!--D&eacute;but du MENU-->
+	<nav id="menu">
+		<ul class="menu">
+			<li class="menu"><a href="../qui-sommes-nous.html" title="Qui sommes-nous ?" class="menu" >Qui sommes-nous ?</a></li>
+			<li class="menu"><a href="../ou-sommes-nous.html" title="O&ugrave; sommes-nous ?" class="menu">O&ugrave; sommes-nous ?</a></li>
+			<li class="menu"><a href="../missions-et-objectifs.html" title="Missions &amp; Objectifs" class="menu">Missions et Objectifs</a></li>
+			<li class="menu"><a href="../partenaires.html" title="Partenaires" class="menu">Partenaires</a></li>
+		</ul>
+            <div id="actif"></div>
+
+		<div id="menu_stroke"></div>
+	</nav>
+<!-- TemplateEndEditable -->
+
+<!--Fin du MENU-->
+<!--D&eacute;but du MENU CENTRE-->
+		<nav class="menu_centres">
+			<ul class="presentation">
+			  <!-- TemplateBeginEditable name="centres" -->            
+       	    <li class="prensentation-centres"><a id="menu-ngangi" href="../ngangi.html" title="Le Centre Ngangi"></a></li>
+				<li class="prensentation-centres"><a id="menu-magui" href="../magui.html" title="La Maison Margueritte"></a></li>
+				<li class="prensentation-centres"><a id="menu-gahinja" href="../gahinja.html" title="Le Centre Gahinja"></a></li>
+				<li class="prensentation-centres"><a id="menu-sasha" href="../sasha.html" title="Les Plantations de Sasha & Nyangoma"></a></li>
+              <!-- TemplateEndEditable -->
+			</ul>
+		</nav>
+<!--Fin du MENU CENTRE-->
+
+<!--D&eacute;but du MAIN -->
+		
+ 
+<!-- TemplateBeginEditable name="main" -->
+
+        
+  <!-- TemplateEndEditable -->
+
+<!-- Fin du MAIN -->
+
+</div>
+<!--D&eacute;but du FOOTER-->
+	<footer>
+		<div id="slogan">" A l'&eacute;cole de Don Bosco, j'&eacute;tudie pour b&acirc;tir les droits humains "</div>
+		<div id="multi-col">
+		<div id="col_footer">
+			<nav id="col1">
+				<ul class="col">
+					<li class="col"><a href="../qui-sommes-nous.html" title="Qui sommes-nous ?">Qui sommes-nous ?</a></li>
+					<li class="col"><a href="../ou-sommes-nous.html" title="O&ugrave; sommes-nous ?">O&ugrave; sommes-nous ?</a></li>
+					<li class="col"><a href="../missions-et-objectifs.html" title="Missions &amp; Objectifs">Missions et Objectifs</a></li>
+					<li class="col"><a href="../partenaires.html" title="Partenaires">Partenaires</a></li>
+				</ul>
+			</nav>
+			<nav id="col2">
+				<ul class="col">
+					<li class="col"><a href="../contact.html">Contactez-nous</a></li>
+					<li class="col"><a href="http://www.facebook.com" title="Nous Suivre Sur Facebook">Facebook</a></li>
+					<li class="col">Photos : <a href="mailto:s.buhl@hotmail.com" title="Contacter le photographe">Lucas</a></li>
+					<li class="col">Webmaster : <a href="mailto:s.buhl@hotmail.com" title="Contacter le Webmaster">B&Uuml;HL - SMIDA </a></li>
+				
+				</ul>
+			</nav>
+			<nav id="col3">
+				<ul class="col">
+					<li class="col"><a href="../ngangi.html" title="Le Centre Ngangi">Le Centre Ngangi</a></li>
+					<li class="col"><a href="../magui.html" title="La Maison Margueritte">La Maison Margueritte</a></li>
+					<li class="col"><a href="../gahinja.html" title="Le Centre Gahinja">Le Centre Gahinja</a></li>
+					<li class="col"><a href="../sasha.html" title="Les Plantations de Sasha &amp; Nyangoma">Sasha &amp; Nyangoma</a></li>
+				</ul>
+			</nav>
+			</div>
+		</div>
+	</footer>
+<!--Fin du FOOTER-->
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar3 = new Spry.Widget.MenuBar("MenuBar3", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+</script>
+</body>
+</html>
